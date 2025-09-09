@@ -1,13 +1,11 @@
 # finance_calculator.py
 
-print(" Personal Finance Calculator ")
-
 # Prompt user for financial details
-income = float(input("Enter your monthly income: "))
-expenses = float(input("Enter your total monthly expenses: "))
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 # Calculate monthly savings
-monthly_savings = income - expenses
+monthly_savings = monthly_income - monthly_expenses
 
 # Annual projection with 5% interest
 annual_savings = monthly_savings * 12
